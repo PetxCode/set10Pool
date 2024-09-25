@@ -106,18 +106,28 @@ export const stage1Score = async (
 ): Promise<Response> => {
   try {
     const { userID } = req.params;
-    const user = await userModel.findById(userID);
+    const user: any = await userModel.findById(userID);
     const { mark, question, option, correct } = req.body;
     if (user) {
       const updated = await userModel.findByIdAndUpdate(
         userID,
         {
-          stage1Result: user.stage1Result.push({
-            mark,
-            question,
-            option,
-            correct,
-          }),
+          stage1Result: [
+            ...user?.stage1Result,
+            { mark, question, option, correct },
+          ],
+        },
+        { new: true }
+      );
+
+      await userModel.findByIdAndUpdate(
+        userID,
+        {
+          stage1Score: user?.stage1Result
+            .map((el: any) => el.mark)
+            .reduce((a: number, b: number) => {
+              return a + b;
+            }, 0),
         },
         { new: true }
       );
@@ -135,7 +145,7 @@ export const stage1Score = async (
   } catch (error: any) {
     return res.status(404).json({
       message: "Error creating account",
-      data: error,
+      data: error?.message,
     });
   }
 };
