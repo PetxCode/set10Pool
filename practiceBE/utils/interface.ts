@@ -1,6 +1,7 @@
 import { Document } from "mongoose";
 
 interface iUser {
+  status: string;
   name: string;
   email: string;
   password: string;

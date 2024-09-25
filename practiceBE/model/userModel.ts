@@ -3,6 +3,10 @@ import { iUserData } from "../utils/interface";
 
 const userModel = new Schema<iUserData>(
   {
+    status: {
+      type: String,
+      default: "student",
+    },
     name: {
       type: String,
     },

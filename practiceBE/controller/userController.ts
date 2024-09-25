@@ -1,6 +1,36 @@
 import { Request, Response } from "express";
 import userModel from "../model/userModel";
 
+export const createAdminAccount = async (
+  req: Request,
+  res: Response
+): Promise<Response> => {
+  try {
+    const { name, email, password, schoolName, phoneNumber, avatar } = req.body;
+
+    const userAccount = await userModel.create({
+      name,
+      email,
+      password,
+      schoolName,
+      phoneNumber,
+      avatar,
+      status: "admin",
+    });
+
+    return res.status(201).json({
+      message: "Admin Account created",
+      data: userAccount,
+      status: 201,
+    });
+  } catch (error: any) {
+    return res.status(404).json({
+      message: "Error creating account",
+      data: error,
+    });
+  }
+};
+
 export const createAccount = async (
   req: Request,
   res: Response
