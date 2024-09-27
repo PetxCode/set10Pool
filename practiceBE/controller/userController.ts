@@ -107,7 +107,7 @@ export const stage1Score = async (
   try {
     const { userID } = req.params;
     const user: any = await userModel.findById(userID);
-    const { mark, question, option, correct } = req.body;
+    const { mark, question, option, correct, questionID } = req.body;
     if (user) {
       const updated = await userModel.findByIdAndUpdate(
         userID,

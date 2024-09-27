@@ -1,0 +1,866 @@
+{
+  "stage1": {
+    "id": "stage1",
+    "data": [
+      {
+        "id": 1,
+        "title": "When a given mass of gas is inversely propotional to its pressure, provided that the temperature remains constant, who's law is that?",
+        "answer": "Boyle's Law",
+        "options": [
+          {
+            "id": "A",
+            "questionID": 1,
+            "questionStage": "stage1",
+            "option": "Avogado's Law",
+            "correct": false
+          },
+          {
+            "id": "B",
+            "questionID": 1,
+            "questionStage": "stage1",
+            "option": "Boyle's Law",
+            "correct": true
+          },
+          {
+            "id": "C",
+            "questionID": 1,
+            "questionStage": "stage1",
+            "option": "Charles' Law",
+            "correct": false
+          },
+          {
+            "id": "D",
+            "questionID": 1,
+            "questionStage": "stage1",
+            "option": "Newton Law",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "_______ the beginning of time, people have always made war _______ each other.",
+        "answer": "Since/against",
+        "options": [
+          {
+            "id": "A",
+            "questionID": 2,
+            "questionStage": "stage1",
+            "option": "Since/against",
+            "correct": true
+          },
+          {
+            "id": "B",
+            "questionID": 2,
+            "questionStage": "stage1",
+            "option": "From/for",
+            "correct": false
+          },
+          {
+            "id": "C",
+            "questionID": 2,
+            "questionStage": "stage1",
+            "option": "Since/with",
+            "correct": false
+          },
+          {
+            "id": "D",
+            "questionID": 2,
+            "questionStage": "stage1",
+            "option": "From/with",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Convert 111.1 from base 2 to base 10",
+        "answer": "7.5",
+        "options": [
+          {
+            "id": "A",
+            "questionID": 3,
+            "questionStage": "Stag1",
+
+            "option": "7.1",
+            "correct": false
+          },
+          {
+            "id": "B",
+            "questionID": 3,
+            "questionStage": "Stag1",
+            "option": "7.3",
+            "correct": false
+          },
+          {
+            "id": "C",
+            "questionID": 3,
+            "questionStage": "Stag1",
+            "option": "7.5",
+            "correct": true
+          },
+          {
+            "id": "D",
+            "questionID": 3,
+            "questionStage": "Stag1",
+            "option": "7.7",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Which of the following is not a morphological variation in human beings?",
+        "answer": "Blood groups",
+        "options": [
+          {
+            "id": "A",
+            "questionID": 4,
+            "questionStage": "stage1",
+            "option": "Blood groups",
+            "correct": true
+          },
+          {
+            "id": "B",
+            "questionID": 4,
+            "questionStage": "stage1",
+            "option": "Size",
+            "correct": false
+          },
+          {
+            "id": "C",
+            "questionID": 4,
+            "questionStage": "stage1",
+            "option": "Color",
+            "correct": false
+          },
+          {
+            "id": "D",
+            "questionID": 4,
+            "questionStage": "stage1",
+            "option": "Hair",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "An electric fan converts electrical energy into",
+        "answer": "Mechanical energy",
+        "options": [
+          {
+            "id": "A",
+            "questionID": 5,
+            "questionStage": "stage1",
+            "option": "Heat energy",
+            "correct": false
+          },
+          {
+            "id": "B",
+            "questionID": 5,
+            "questionStage": "stage1",
+            "option": "Solar energy",
+            "correct": false
+          },
+          {
+            "id": "C",
+            "questionID": 5,
+            "questionStage": "stage1",
+            "option": "Mechanical energy",
+            "correct": true
+          },
+          {
+            "id": "D",
+            "questionID": 5,
+            "questionStage": "stage1",
+            "option": " energy",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Choose the option that has the same consonant sound as the highlighted one; 't'each",
+        "answer": "deviate",
+        "options": [
+          {
+            "id": "A",
+            "questionID": 6,
+            "questionStage": "stage1",
+            "option": "deviate",
+            "correct": true
+          },
+          {
+            "id": "B",
+            "questionID": 6,
+            "questionStage": "stage1",
+            "option": "listen",
+            "correct": false
+          },
+          {
+            "id": "C",
+            "questionID": 6,
+            "questionStage": "stage1",
+            "option": "bench",
+            "correct": false
+          },
+          {
+            "id": "D",
+            "questionID": 6,
+            "questionStage": "stage1",
+            "option": "church",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  },
+  "stage2": {
+    "id": "stage2",
+    "data": [
+      {
+        "id": 1,
+        "title": "When a given mass of gas is inversely propotional to its pressure, provided that the temperature remains constant, who's law is that?",
+        "answer": "Boyle's Law",
+        "options": [
+          {
+            "id": "A",
+            "questionID": 1,
+            "questionStage": "stage2",
+            "option": "Avogado's Law",
+            "correct": false
+          },
+          {
+            "id": "B",
+            "questionID": 1,
+            "questionStage": "stage2",
+            "option": "Boyle's Law",
+            "correct": true
+          },
+          {
+            "id": "C",
+            "questionID": 1,
+            "questionStage": "stage2",
+            "option": "Charles' Law",
+            "correct": false
+          },
+          {
+            "id": "D",
+            "questionID": 1,
+            "questionStage": "stage2",
+            "option": "Newton Law",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "_______ the beginning of time, people have always made war _______ each other.",
+        "answer": "Since/against",
+        "options": [
+          {
+            "id": "A",
+            "questionID": 2,
+            "questionStage": "stage2",
+            "option": "Since/against",
+            "correct": true
+          },
+          {
+            "id": "B",
+            "questionID": 2,
+            "questionStage": "stage2",
+            "option": "From/for",
+            "correct": false
+          },
+          {
+            "id": "C",
+            "questionID": 2,
+            "questionStage": "stage2",
+            "option": "Since/with",
+            "correct": false
+          },
+          {
+            "id": "D",
+            "questionID": 2,
+            "questionStage": "stage2",
+            "option": "From/with",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Convert 111.1 from base 2 to base 10",
+        "answer": "7.5",
+        "options": [
+          {
+            "id": "A",
+            "questionID": 3,
+            "questionStage": "Stag1",
+
+            "option": "7.1",
+            "correct": false
+          },
+          {
+            "id": "B",
+            "questionID": 3,
+            "questionStage": "Stag1",
+            "option": "7.3",
+            "correct": false
+          },
+          {
+            "id": "C",
+            "questionID": 3,
+            "questionStage": "Stag1",
+            "option": "7.5",
+            "correct": true
+          },
+          {
+            "id": "D",
+            "questionID": 3,
+            "questionStage": "Stag1",
+            "option": "7.7",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Which of the following is not a morphological variation in human beings?",
+        "answer": "Blood groups",
+        "options": [
+          {
+            "id": "A",
+            "questionID": 4,
+            "questionStage": "stage2",
+            "option": "Blood groups",
+            "correct": true
+          },
+          {
+            "id": "B",
+            "questionID": 4,
+            "questionStage": "stage2",
+            "option": "Size",
+            "correct": false
+          },
+          {
+            "id": "C",
+            "questionID": 4,
+            "questionStage": "stage2",
+            "option": "Color",
+            "correct": false
+          },
+          {
+            "id": "D",
+            "questionID": 4,
+            "questionStage": "stage2",
+            "option": "Hair",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "An electric fan converts electrical energy into",
+        "answer": "Mechanical energy",
+        "options": [
+          {
+            "id": "A",
+            "questionID": 5,
+            "questionStage": "stage2",
+            "option": "Heat energy",
+            "correct": false
+          },
+          {
+            "id": "B",
+            "questionID": 5,
+            "questionStage": "stage2",
+            "option": "Solar energy",
+            "correct": false
+          },
+          {
+            "id": "C",
+            "questionID": 5,
+            "questionStage": "stage2",
+            "option": "Mechanical energy",
+            "correct": true
+          },
+          {
+            "id": "D",
+            "questionID": 5,
+            "questionStage": "stage2",
+            "option": " energy",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Choose the option that has the same consonant sound as the highlighted one; 't'each",
+        "answer": "deviate",
+        "options": [
+          {
+            "id": "A",
+            "questionID": 6,
+            "questionStage": "stage2",
+            "option": "deviate",
+            "correct": true
+          },
+          {
+            "id": "B",
+            "questionID": 6,
+            "questionStage": "stage2",
+            "option": "listen",
+            "correct": false
+          },
+          {
+            "id": "C",
+            "questionID": 6,
+            "questionStage": "stage2",
+            "option": "bench",
+            "correct": false
+          },
+          {
+            "id": "D",
+            "questionID": 6,
+            "questionStage": "stage2",
+            "option": "church",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  },
+  "stage3": {
+    "id": "stage3",
+    "data": [
+      {
+        "id": 1,
+        "title": "When a given mass of gas is inversely propotional to its pressure, provided that the temperature remains constant, who's law is that?",
+        "answer": "Boyle's Law",
+        "options": [
+          {
+            "id": "A",
+            "questionID": 1,
+            "questionStage": "stage3",
+            "option": "Avogado's Law",
+            "correct": false
+          },
+          {
+            "id": "B",
+            "questionID": 1,
+            "questionStage": "stage3",
+            "option": "Boyle's Law",
+            "correct": true
+          },
+          {
+            "id": "C",
+            "questionID": 1,
+            "questionStage": "stage3",
+            "option": "Charles' Law",
+            "correct": false
+          },
+          {
+            "id": "D",
+            "questionID": 1,
+            "questionStage": "stage3",
+            "option": "Newton Law",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "_______ the beginning of time, people have always made war _______ each other.",
+        "answer": "Since/against",
+        "options": [
+          {
+            "id": "A",
+            "questionID": 2,
+            "questionStage": "stage3",
+            "option": "Since/against",
+            "correct": true
+          },
+          {
+            "id": "B",
+            "questionID": 2,
+            "questionStage": "stage3",
+            "option": "From/for",
+            "correct": false
+          },
+          {
+            "id": "C",
+            "questionID": 2,
+            "questionStage": "stage3",
+            "option": "Since/with",
+            "correct": false
+          },
+          {
+            "id": "D",
+            "questionID": 2,
+            "questionStage": "stage3",
+            "option": "From/with",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Convert 111.1 from base 2 to base 10",
+        "answer": "7.5",
+        "options": [
+          {
+            "id": "A",
+            "questionID": 3,
+            "questionStage": "Stag1",
+
+            "option": "7.1",
+            "correct": false
+          },
+          {
+            "id": "B",
+            "questionID": 3,
+            "questionStage": "Stag1",
+            "option": "7.3",
+            "correct": false
+          },
+          {
+            "id": "C",
+            "questionID": 3,
+            "questionStage": "Stag1",
+            "option": "7.5",
+            "correct": true
+          },
+          {
+            "id": "D",
+            "questionID": 3,
+            "questionStage": "Stag1",
+            "option": "7.7",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Which of the following is not a morphological variation in human beings?",
+        "answer": "Blood groups",
+        "options": [
+          {
+            "id": "A",
+            "questionID": 4,
+            "questionStage": "stage3",
+            "option": "Blood groups",
+            "correct": true
+          },
+          {
+            "id": "B",
+            "questionID": 4,
+            "questionStage": "stage3",
+            "option": "Size",
+            "correct": false
+          },
+          {
+            "id": "C",
+            "questionID": 4,
+            "questionStage": "stage3",
+            "option": "Color",
+            "correct": false
+          },
+          {
+            "id": "D",
+            "questionID": 4,
+            "questionStage": "stage3",
+            "option": "Hair",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "An electric fan converts electrical energy into",
+        "answer": "Mechanical energy",
+        "options": [
+          {
+            "id": "A",
+            "questionID": 5,
+            "questionStage": "stage3",
+            "option": "Heat energy",
+            "correct": false
+          },
+          {
+            "id": "B",
+            "questionID": 5,
+            "questionStage": "stage3",
+            "option": "Solar energy",
+            "correct": false
+          },
+          {
+            "id": "C",
+            "questionID": 5,
+            "questionStage": "stage3",
+            "option": "Mechanical energy",
+            "correct": true
+          },
+          {
+            "id": "D",
+            "questionID": 5,
+            "questionStage": "stage3",
+            "option": " energy",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Choose the option that has the same consonant sound as the highlighted one; 't'each",
+        "answer": "deviate",
+        "options": [
+          {
+            "id": "A",
+            "questionID": 6,
+            "questionStage": "stage3",
+            "option": "deviate",
+            "correct": true
+          },
+          {
+            "id": "B",
+            "questionID": 6,
+            "questionStage": "stage3",
+            "option": "listen",
+            "correct": false
+          },
+          {
+            "id": "C",
+            "questionID": 6,
+            "questionStage": "stage3",
+            "option": "bench",
+            "correct": false
+          },
+          {
+            "id": "D",
+            "questionID": 6,
+            "questionStage": "stage3",
+            "option": "church",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  },
+  "stage4": {
+    "id": "stage4",
+    "data": [
+      {
+        "id": 1,
+        "title": "When a given mass of gas is inversely propotional to its pressure, provided that the temperature remains constant, who's law is that?",
+        "answer": "Boyle's Law",
+        "options": [
+          {
+            "id": "A",
+            "questionID": 1,
+            "questionStage": "stage4",
+            "option": "Avogado's Law",
+            "correct": false
+          },
+          {
+            "id": "B",
+            "questionID": 1,
+            "questionStage": "stage4",
+            "option": "Boyle's Law",
+            "correct": true
+          },
+          {
+            "id": "C",
+            "questionID": 1,
+            "questionStage": "stage4",
+            "option": "Charles' Law",
+            "correct": false
+          },
+          {
+            "id": "D",
+            "questionID": 1,
+            "questionStage": "stage4",
+            "option": "Newton Law",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "_______ the beginning of time, people have always made war _______ each other.",
+        "answer": "Since/against",
+        "options": [
+          {
+            "id": "A",
+            "questionID": 2,
+            "questionStage": "stage4",
+            "option": "Since/against",
+            "correct": true
+          },
+          {
+            "id": "B",
+            "questionID": 2,
+            "questionStage": "stage4",
+            "option": "From/for",
+            "correct": false
+          },
+          {
+            "id": "C",
+            "questionID": 2,
+            "questionStage": "stage4",
+            "option": "Since/with",
+            "correct": false
+          },
+          {
+            "id": "D",
+            "questionID": 2,
+            "questionStage": "stage4",
+            "option": "From/with",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Convert 111.1 from base 2 to base 10",
+        "answer": "7.5",
+        "options": [
+          {
+            "id": "A",
+            "questionID": 3,
+            "questionStage": "Stag1",
+
+            "option": "7.1",
+            "correct": false
+          },
+          {
+            "id": "B",
+            "questionID": 3,
+            "questionStage": "Stag1",
+            "option": "7.3",
+            "correct": false
+          },
+          {
+            "id": "C",
+            "questionID": 3,
+            "questionStage": "Stag1",
+            "option": "7.5",
+            "correct": true
+          },
+          {
+            "id": "D",
+            "questionID": 3,
+            "questionStage": "Stag1",
+            "option": "7.7",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Which of the following is not a morphological variation in human beings?",
+        "answer": "Blood groups",
+        "options": [
+          {
+            "id": "A",
+            "questionID": 4,
+            "questionStage": "stage4",
+            "option": "Blood groups",
+            "correct": true
+          },
+          {
+            "id": "B",
+            "questionID": 4,
+            "questionStage": "stage4",
+            "option": "Size",
+            "correct": false
+          },
+          {
+            "id": "C",
+            "questionID": 4,
+            "questionStage": "stage4",
+            "option": "Color",
+            "correct": false
+          },
+          {
+            "id": "D",
+            "questionID": 4,
+            "questionStage": "stage4",
+            "option": "Hair",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "An electric fan converts electrical energy into",
+        "answer": "Mechanical energy",
+        "options": [
+          {
+            "id": "A",
+            "questionID": 5,
+            "questionStage": "stage4",
+            "option": "Heat energy",
+            "correct": false
+          },
+          {
+            "id": "B",
+            "questionID": 5,
+            "questionStage": "stage4",
+            "option": "Solar energy",
+            "correct": false
+          },
+          {
+            "id": "C",
+            "questionID": 5,
+            "questionStage": "stage4",
+            "option": "Mechanical energy",
+            "correct": true
+          },
+          {
+            "id": "D",
+            "questionID": 5,
+            "questionStage": "stage4",
+            "option": " energy",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Choose the option that has the same consonant sound as the highlighted one; 't'each",
+        "answer": "deviate",
+        "options": [
+          {
+            "id": "A",
+            "questionID": 6,
+            "questionStage": "stage4",
+            "option": "deviate",
+            "correct": true
+          },
+          {
+            "id": "B",
+            "questionID": 6,
+            "questionStage": "stage4",
+            "option": "listen",
+            "correct": false
+          },
+          {
+            "id": "C",
+            "questionID": 6,
+            "questionStage": "stage4",
+            "option": "bench",
+            "correct": false
+          },
+          {
+            "id": "D",
+            "questionID": 6,
+            "questionStage": "stage4",
+            "option": "church",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

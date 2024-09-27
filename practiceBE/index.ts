@@ -34,6 +34,18 @@ io.on(
       io.emit("nullValue", null);
     });
 
+    socket.on("questionNumber", (question) => {
+      io.emit("questionNumber", question);
+    });
+
+    socket.on("presentStage", (stage) => {
+      io.emit("presentStage", stage);
+    });
+
+    socket.on("chart", (stage) => {
+      io.emit("chart", stage);
+    });
+
     socket.on("disconnect", () => {
       console.log("user went off");
     });
