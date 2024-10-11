@@ -38,11 +38,29 @@ const userModel = new Schema<iUserData>(
       default: 0,
     },
 
+    stage3Score: {
+      type: Number,
+      default: 0,
+    },
+
+    stage4Score: {
+      type: Number,
+      default: 0,
+    },
+
     stage1Result: {
       type: [],
     },
 
     stage2Result: {
+      type: [],
+    },
+
+    stage3Result: {
+      type: [],
+    },
+
+    stage4Result: {
       type: [],
     },
   },

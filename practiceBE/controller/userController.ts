@@ -94,12 +94,6 @@ export const loginAccount = async (
   }
 };
 
-// read GET find
-// readOne GET findById
-// create POST create
-// update PATCH findByIdAndUpdate
-// delete DELETE findByIdAndDelete
-
 export const stage1Score = async (
   req: Request,
   res: Response
@@ -150,6 +144,147 @@ export const stage1Score = async (
   }
 };
 
+export const stage2Score = async (
+  req: Request,
+  res: Response
+): Promise<Response> => {
+  try {
+    const { userID } = req.params;
+    const user: any = await userModel.findById(userID);
+
+    if (user) {
+      const updated = await userModel.findByIdAndUpdate(
+        userID,
+        {
+          stage2Result: [...user?.stage2Result, req.body],
+        },
+        { new: true }
+      );
+
+      await userModel.findByIdAndUpdate(
+        userID,
+        {
+          stage2Score: user?.stage2Result
+            .map((el: any) => el.mark)
+            .reduce((a: number, b: number) => {
+              return a + b;
+            }, 0),
+        },
+        { new: true }
+      );
+
+      return res.status(201).json({
+        message: "user score recorded successfully",
+        data: updated,
+        status: 201,
+      });
+    } else {
+      return res.status(404).json({
+        message: "user doesn't exist",
+      });
+    }
+  } catch (error: any) {
+    return res.status(404).json({
+      message: "Error creating account",
+      data: error?.message,
+    });
+  }
+};
+
+export const stage3Score = async (
+  req: Request,
+  res: Response
+): Promise<Response> => {
+  try {
+    const { userID } = req.params;
+    const user: any = await userModel.findById(userID);
+
+    if (user) {
+      const updated = await userModel.findByIdAndUpdate(
+        userID,
+        {
+          stage3Result: [...user?.stage3Result, req.body],
+        },
+        { new: true }
+      );
+
+      await userModel.findByIdAndUpdate(
+        userID,
+        {
+          stage3Score: user?.stage3Result
+            .map((el: any) => el.mark)
+            .reduce((a: number, b: number) => {
+              return a + b;
+            }, 0),
+        },
+        { new: true }
+      );
+
+      return res.status(201).json({
+        message: "user score recorded successfully",
+        data: updated,
+        status: 201,
+      });
+    } else {
+      return res.status(404).json({
+        message: "user doesn't exist",
+      });
+    }
+  } catch (error: any) {
+    return res.status(404).json({
+      message: "Error creating account",
+      data: error?.message,
+    });
+  }
+};
+
+export const stage4Score = async (
+  req: Request,
+  res: Response
+): Promise<Response> => {
+  try {
+    const { userID } = req.params;
+    const user: any = await userModel.findById(userID);
+
+    if (user) {
+      const updated = await userModel.findByIdAndUpdate(
+        userID,
+        {
+          stage4Result: [...user?.stage4Result, req.body],
+        },
+        { new: true }
+      );
+
+      await userModel.findByIdAndUpdate(
+        userID,
+        {
+          stage4Score: user?.stage4Result
+            .map((el: any) => el.mark)
+            .reduce((a: number, b: number) => {
+              return a + b;
+            }, 0),
+        },
+        { new: true }
+      );
+
+      return res.status(201).json({
+        message: "user score recorded successfully",
+        data: updated,
+        status: 201,
+      });
+    } else {
+      return res.status(404).json({
+        message: "user doesn't exist",
+      });
+    }
+  } catch (error: any) {
+    return res.status(404).json({
+      message: "Error creating account",
+      data: error?.message,
+    });
+  }
+};
+
 export const userAccount = async (
   req: Request,
   res: Response
@@ -182,6 +317,27 @@ export const readSingleAccount = async (
       message: "get single user",
       data: users,
       status: 200,
+    });
+  } catch (error: any) {
+    return res.status(404).json({
+      message: "Error creating account",
+      data: error,
+    });
+  }
+};
+
+export const deleteUserAccount = async (
+  req: Request,
+  res: Response
+): Promise<Response> => {
+  try {
+    const { userID } = req.params;
+    const users = await userModel.findByIdAndDelete(userID);
+
+    return res.status(201).json({
+      message: "user Deleted",
+      data: users,
+      status: 201,
     });
   } catch (error: any) {
     return res.status(404).json({
